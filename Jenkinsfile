@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url:
+                    url: https://github.com/bhaskarh993-oss/python-alb-app.git
             }
         }
 
